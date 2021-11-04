@@ -1,0 +1,11 @@
+{
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "results/mochawesome",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "video": false
+}

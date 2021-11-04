@@ -1,0 +1,13 @@
+{
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-typescript": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "prettier",
+      "lintOn": ["save"]
+    },
+    "@vue/cli-plugin-unit-jest": {},
+    "@vue/cli-plugin-e2e-cypress": {}
+  },
+  "vueVersion": "3"
+}
